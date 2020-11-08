@@ -7,15 +7,11 @@ html {
 }
 
 h1 {
-    margin-bottom: 15px;
     text-align: center;
 }
-div {
-}
+
 .row{
-
-    margin: 30px;
-
+    width: 100%;
 }
 
 .outbox {
@@ -53,27 +49,42 @@ h2{
 
 @media (min-width: 992px) { 
     .col-lg-4 {
-        width: 33.33%;
         background-color: grey; 
         text-align: center;
         min-height: auto;
         margin-bottom:20px;
         float:left;
         border: 1px solid black;
-
     }
-}    
-@media (max-width: 991px) and (min-width: 768px) {
+    .box1 {
+        width:31.9%;
+        margin-right: 20px;
+    }
+    .box2 {
+        width: 31.9%;
+        margin-right: 20px;
+    }
+    .box3 {
+        width: 31.9%;
+    }
+} 
+   
+@media (max-width: 991.9px) and (min-width: 768px) {
     .col-md-6 {
-        width: 50%;
         border: 1px solid black;
         background-color: grey; 
         text-align: center;
         min-height: auto;
         margin-bottom:20px;
         float:left;
-
     } 
+    .box1 {
+        width: 48.7%;
+        margin-right:20px;
+    }
+    .box2 {
+        width: 48.7%;
+    }
     .box3 {
         width:100%;
         clear: left;
@@ -81,7 +92,7 @@ h2{
 }
 
 
-@media (max-width: 767px) { 
+@media (max-width: 767.9px) { 
     .col-sm-12 {
         width: 100%;
         border: 1px solid black;
